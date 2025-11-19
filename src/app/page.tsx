@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { profileLegacy } from "@/data/profileLegacy";
 import { Badge } from "@/components/Badge";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -23,9 +24,15 @@ export default function HomePage() {
             <Badge>Audio Tooling</Badge>
           </div>
         </div>
-        <div className="hero-avatar" aria-label="Profile photo placeholder">
+        <div className="hero-avatar">
           <div className="hero-avatar__ring">
-            <span>Photo Soon</span>
+            <Image
+              src="/profile.jpg"
+              alt="Portrait of Jang HyunWoong"
+              fill
+              sizes="230px"
+              priority
+            />
           </div>
         </div>
       </section>
