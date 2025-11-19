@@ -1,4 +1,4 @@
-export type LegacyTimelineEntry = {
+export type TimelineEntry = {
   title: string;
   organization: string;
   period: string;
@@ -63,7 +63,7 @@ export const profileLegacy = {
         "공연을 돕기 위한 소규모 VJ · 오디오 리액티브 툴을 직접 제작합니다."
       ]
     }
-  ] as LegacyTimelineEntry[]
+  ] as TimelineEntry[]
 };
 
 

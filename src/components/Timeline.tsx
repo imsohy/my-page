@@ -1,4 +1,4 @@
-import type { TimelineEntry } from "@/data/profile";
+import type { TimelineEntry } from "@/data/profileLegacy";
 
 type TimelineProps = {
   entries: TimelineEntry[];
