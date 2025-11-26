@@ -16,7 +16,9 @@ export default function HomePage() {
             {profile.name} · {profile.pronouns}
           </p>
           <h1 className="title-xl">{profile.headline}</h1>
-          <p className="muted">{profile.summary}</p>
+          <p className="muted" style={{ whiteSpace: "pre-line" }}>
+            {profile.summary}
+          </p>
           <div className="chip-row" style={{ marginTop: "1.25rem" }}>
             <Badge variant="accent">광운대학교</Badge>
             <Badge>3D Face Reconstruction</Badge>
@@ -69,7 +71,7 @@ export default function HomePage() {
       <section className="panel">
         <SectionHeading
           eyebrow="연구 여정"
-          title="컴퓨터비전, 실시간 도구, 무대 경험을 한데 엮습니다."
+          title="연구와 창작, 무대를 넘나들며 배움을 쌓아갑니다."
           description="프로토타입과 클럽 무대, 연구실 결과를 꾸준히 공개하며 실험 속도를 유지합니다."
         />
         <Timeline entries={profile.timeline} />

@@ -10,25 +10,23 @@ export const profileLegacy = {
   pronouns: "He/Him",
   headline: "About Me",
   summary:
-    "광운대학교 컴퓨터정보공학부에서 3D Face Reconstruction, Unity 게임, 오디오 툴링을 파고듭니다. 힙합 공연과 연구실 작업을 오가며 두 가지 삶을 살고 있습니다.",
+    "광운대학교 컴퓨터정보공학부에서 3D Face Reconstruction, Unity 게임, 오디오 툴링을 파고듭니다.\n힙합 공연과 연구실 작업을 오가며 두 가지 삶을 살고 있습니다.",
   location: "서울, 대한민국",
   contact: {
     email: "legacytachyon@gmail.com"
   },
   researchFocus: [
-    "Action Unit 조건부 3D 얼굴 복원",
-    "조건부 GAN · 디퓨전 하이브리드 생성 모델",
-    "실시간 인터랙션 디자인과 컨텐츠 저작"
+    "Action Unit 기반 3D 얼굴 복원",
+    "Transformer 기반 모델"
   ],
   learningStack: [
-    "Unity5 & C# 게임 플레이 루프",
+    "Unity5 & C# 게임 제작",
     "오디오 미들웨어 · VSTi 시스템",
-    "힙합 공연을 위한 크리에이티브 코딩"
+    "힙합 공연"
   ],
   collaborations: [
-    "게임 오디오 툴을 함께 만들 협업자",
-    "VSTi 플러그인 멘토",
-    "힙합 × 테크 실험에 관심 있는 크루"
+    "VSTi 플러그인 제작 멘토",
+    "3D 얼굴 복원을 통한 아바타 제작"
   ],
   funFacts: [
     "3개의 교내 힙합 동아리에서 활동",
