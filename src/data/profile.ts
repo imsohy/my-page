@@ -91,21 +91,22 @@ export const profile = {
       ]
     },
     {
-      title: "Unity 게임 플레이 탐색자",
-      organization: "개인 실험실",
-      period: "2023 — 현재",
+      title: "게임 프로그래밍",
+      organization: "광운대 Level-UP! 동아리",
+      period: "2024 — 현재",
       bullets: [
-        "마이크로 게임을 통해 씬 매니지먼트, 셰이더, 오디오 리액티브 시스템을 학습",
-        "C# 입문자용 문서를 제작해 커뮤니티에 공유"
+        "Unity 5 라이트노벨 / SRPG \"White Star Way\" 에 음향 프로그래밍 및 테스터,디버거로 참여, 2025 Beaver-Rocks 전시회 참여",
+        "열렬한 오버워치 게이머"
       ]
     },
     {
-      title: "힙합 컬렉티브 리드",
-      organization: "교내 동아리 연합",
-      period: "2021 — 현재",
+      title: "힙합 리드",
+      organization: "광운대 C-SPOT 동아리",
+      period: "2024 — 현재",
       bullets: [
-        "3개 힙합 동아리를 잇는 사이퍼 · 쇼케이스를 기획",
-        "VJ 및 오디오 리액티브 툴을 직접 제작해 무대에 적용"
+        "밤을 새서 비트를 듣고 가사를 쓰고, 힙합 공연들을 찾아다닙니다.",
+        "크루원들이 제안한 작업물을 같이 작업하고, 녹음하고, 믹싱합니다.",
+        "동아리 공연에 참여합니다."
       ]
     }
   ] as ExperienceEntry[],
