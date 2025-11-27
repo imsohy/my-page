@@ -92,18 +92,20 @@ export const profile = {
     },
     {
       title: "게임 프로그래밍",
-      organization: "광운대 Level-UP! 동아리",
+      organization: "광운대 Level-UP!\n동아리",
       period: "2024 — 현재",
       bullets: [
+        "광운대학교 게임개발 동아리 Level-UP! 동아리원",
         "Unity 5 라이트노벨 / SRPG \"White Star Way\" 에 음향 프로그래밍 및 테스터,디버거로 참여, 2025 Beaver-Rocks 전시회 참여",
         "열렬한 오버워치 게이머"
       ]
     },
     {
       title: "힙합 리드",
-      organization: "광운대 C-SPOT 동아리",
+      organization: "광운대 C-SPOT\n동아리",
       period: "2024 — 현재",
       bullets: [
+        "광운대학교 힙합동아리 C-SPOT 동아리원",
         "밤을 새서 비트를 듣고 가사를 쓰고, 힙합 공연들을 찾아다닙니다.",
         "크루원들이 제안한 작업물을 같이 작업하고, 녹음하고, 믹싱합니다.",
         "동아리 공연에 참여합니다."

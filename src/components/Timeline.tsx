@@ -12,7 +12,7 @@ export function Timeline({ entries }: TimelineProps) {
           <div>
             <p className="eyebrow">{entry.period}</p>
             <h3>{entry.title}</h3>
-            <span>{entry.organization}</span>
+            <span style={{ whiteSpace: "pre-line" }}>{entry.organization}</span>
           </div>
           <div className="timeline-card">
             <ul>

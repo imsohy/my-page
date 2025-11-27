@@ -93,7 +93,7 @@ export default function LegacyPage() {
                   <h3>{exp.title}</h3>
                   <span>{exp.period}</span>
                 </div>
-                <p className="muted">{exp.organization}</p>
+                <p className="muted" style={{ whiteSpace: "pre-line" }}>{exp.organization}</p>
                 <ul>
                   {exp.bullets.map((line) => (
                     <li key={line}>{line}</li>
